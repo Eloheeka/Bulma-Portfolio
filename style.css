@@ -1,0 +1,45 @@
+
+:root {
+  --primary: #6b46c1; 
+  --primary-hover: #5a3ca0; 
+}
+
+
+.is-primary {
+  background-color: var(--primary) !important;
+}
+
+
+.navbar.is-primary {
+  background-color: var(--primary) !important;
+}
+.navbar.is-primary .navbar-item:hover,
+.navbar.is-primary .navbar-link:hover {
+  background-color: var(--primary-hover) !important;
+}
+
+
+.button.is-primary {
+  background-color: var(--primary) !important;
+}
+.button.is-primary:hover {
+  background-color: var(--primary-hover) !important;
+}
+.button.is-primary.is-outlined {
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+.button.is-primary.is-outlined:hover {
+  background-color: var(--primary) !important;
+  color: white !important;
+}
+
+.progress.is-primary::-webkit-progress-value {
+  background-color: var(--primary) !important;
+}
+.progress.is-primary::-moz-progress-bar {
+  background-color: var(--primary) !important;
+}
+.progress.is-primary {
+  background-color: #e5e7eb !important; 
+}

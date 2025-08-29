@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bulma Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <strong>My Portfolio</strong>
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#home">Home</a>
+                <a class="navbar-item" href="#about">About</a>
+                <a class="navbar-item" href="#skills">Skills</a>
+                <a class="navbar-item" href="#projects">Projects</a>
+                <a class="navbar-item" href="#testimonials">Testimonials</a>
+                <a class="navbar-item" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero is-medium is-info">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-1">Welcome to My Portfolio</h1>
+                <h2 class="subtitle is-3">I'm a passionate Junior Software Developer</h2>
+                <a class="button is-large is-primary is-outlined" href="#projects">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered">About Me</h2>
+            <div class="columns is-vcentered">
+                <div class="column is-one-third">
+                    <figure class="image is-1by1">
+                        <img class="is-rounded" src="https://via.placeholder.com/300x300" alt="Profile">
+                    </figure>
+                </div>
+                <div class="column is-two-thirds">
+                    <p class="content is-size-5">
+                        Hi, I'm a passionate developer with a love for creating user-friendly, responsive web applications. 
+                        With a background in computer science, I specialize in front-end development, leveraging frameworks 
+                        like Bulma to build clean and modern interfaces. My goal is to deliver projects that combine 
+                        functionality with great design.
+                    </p>
+                    <p class="content is-size-5">
+                        When I'm not coding, you can find me exploring new technologies, reading tech blogs, or contributing 
+                        to open-source projects. Let's connect and build something amazing together!
+                    </p>
+                    <a class="button is-primary" href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section has-background-light">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered">My Skills</h2>
+            <div class="columns is-multiline">
+                <div class="column is-half">
+                    <p class="subtitle is-5">HTML & CSS</p>
+                    <progress class="progress is-primary" value="90" max="100">90%</progress>
+                </div>
+                <div class="column is-half">
+                    <p class="subtitle is-5">JavaScript</p>
+                    <progress class="progress is-primary" value="80" max="100">80%</progress>
+                </div>
+                <div class="column is-half">
+                    <p class="subtitle is-5">React</p>
+                    <progress class="progress is-primary" value="75" max="100">75%</progress>
+                </div>
+                <div class="column is-half">
+                    <p class="subtitle is-5">Bulma CSS</p>
+                    <progress class="progress is-primary" value="85" max="100">85%</progress>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered">My Projects</h2>
+            <div class="columns is-multiline">
+                <!-- Project Card 1 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="image3 (2).jpg" alt="Project 1">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Project One</p>
+                            <p class="subtitle is-6">A web app built with modern technologies.</p>
+                            <a class="button is-primary" href="#">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="image2 (3).jpg" alt="Project 2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Project Two</p>
+                            <p class="subtitle is-6">A mobile-friendly e-commerce site.</p>
+                            <a class="button is-primary" href="#">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="image1 (2).jpg" alt="Project 3">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Project Three</p>
+                            <p class="subtitle is-6">A data visualization dashboard.</p>
+                            <a class="button is-primary" href="#">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 4 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="img.jpg" alt="Project 4">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Project Four</p>
+                            <p class="subtitle is-6">A portfolio site using Bulma.</p>
+                            <a class="button is-primary" href="#">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section has-background-info-light">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered">Testimonials</h2>
+            <div class="columns is-multiline">
+                <!-- Testimonial 1 -->
+                <div class="column is-half">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="content">"Working with this developer was a fantastic experience. Their attention to detail and ability to deliver on time was impressive!"</p>
+                            <p class="subtitle is-6 has-text-right">— Jane Doe, Client</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="column is-half">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="content">"The project was delivered with clean code and a beautiful design. Highly recommend for any web development needs!"</p>
+                            <p class="subtitle is-6 has-text-right">— John Smith, CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section has-background-light">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered">Get in Touch</h2>
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <form>
+                        <div class="field">
+                            <label class="label">Name</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control">
+                                <input class="input" type="email" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Your Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-primary is-fullwidth" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>© 2025 My Portfolio. All rights reserved.</p>
+            <p>
+                <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Navbar Burger Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
